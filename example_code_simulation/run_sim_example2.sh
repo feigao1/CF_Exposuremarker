@@ -1,0 +1,43 @@
+Rscript sim_example.R 1 4000 0.6
+Rscript sim_example.R 2 4000 0.6
+Rscript sim_example.R 3 4000 0.6
+Rscript sim_example.R 4 4000 0.6
+Rscript sim_example.R 5 4000 0.6
+Rscript sim_example.R 6 4000 0.6
+Rscript sim_example.R 7 4000 0.6
+Rscript sim_example.R 8 4000 0.6
+Rscript sim_example.R 9 4000 0.6
+Rscript sim_example.R 10 4000 0.6
+
+Rscript sim_example.R 11 4000 0.6
+Rscript sim_example.R 12 4000 0.6
+Rscript sim_example.R 13 4000 0.6
+Rscript sim_example.R 14 4000 0.6
+Rscript sim_example.R 15 4000 0.6
+Rscript sim_example.R 16 4000 0.6
+Rscript sim_example.R 17 4000 0.6
+Rscript sim_example.R 18 4000 0.6
+Rscript sim_example.R 19 4000 0.6
+Rscript sim_example.R 20 4000 0.6
+
+Rscript sim_example.R 21 4000 0.6
+Rscript sim_example.R 22 4000 0.6
+Rscript sim_example.R 23 4000 0.6
+Rscript sim_example.R 24 4000 0.6
+Rscript sim_example.R 25 4000 0.6
+Rscript sim_example.R 26 4000 0.6
+Rscript sim_example.R 27 4000 0.6
+Rscript sim_example.R 28 4000 0.6
+Rscript sim_example.R 29 4000 0.6
+Rscript sim_example.R 30 4000 0.6
+
+Rscript sim_example.R 31 4000 0.6
+Rscript sim_example.R 32 4000 0.6
+Rscript sim_example.R 33 4000 0.6
+Rscript sim_example.R 34 4000 0.6
+Rscript sim_example.R 35 4000 0.6
+Rscript sim_example.R 36 4000 0.6
+Rscript sim_example.R 37 4000 0.6
+Rscript sim_example.R 38 4000 0.6
+Rscript sim_example.R 39 4000 0.6
+Rscript sim_example.R 40 4000 0.6

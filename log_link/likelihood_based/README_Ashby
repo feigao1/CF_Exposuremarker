@@ -1,0 +1,9 @@
+Code documentation notes
+Ethan Ashby
+
+EM_functions.R
++ Lines 1-20: specify the log likelihood function and first and second derivatives of the log likelihood wrt `muU`, `muV` (which are logit transformed mean incidences for HIV (U) and RGC (V) respectively), `sigma_U2` and `sigma_V2` (which are the variances of the estimated means), and `rho` (measures magnitude of association between U and V) in the bivariate linkage model.
++ Lines 40-46: `gen_data`: takes as input parameters of bivariate linkage model and produces `Um` and `Vm` (true HIV and RGC incidences for each study) and also `hUm` and `hVm` (estimates with additional variablity).
++ Lines 47-62: `gen_data_inc`: takes as input parameters of bivariate linkage model and produces produces `Um` and `Vm` (true HIV and RGC incidences for each study). Using `Um` and `Vm`, estimated incidence rates generated binomial draws from studies with 2000 and 5000 participants and success probability expit(Um) and expit(Vm) -- yielding `hUm` and `hVm`. Then get conditional variance estimates of estimates given parameters: `sU2` and `sV2`. Exclude 0 incidence studies and return log(est incidence), the logit transformed true incidences, and the conditional variances of the estimates.
++ Lines 64-114: `solve_para`: runs weird EM alg. Given output of `gen_data_inc`, computes initial estimates of the bivariate linkage model (`muU`, `muV`, `sigma_U2`, `sigma_V2`, and `rho`). Evaluates score function and Hessian at the estimates, and then does some update to the estimates (which I don't fully understand). Until the total absolute difference in estimates between iterations in below some threhold. Then the output is the converged parameter estimates along with estimates of their standard errors (extracted from the Hessian matrix).
++ Lines 116-165: `solve_para_EM`: runs EM alg. **TO BE CONTINUED**
